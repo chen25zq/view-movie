@@ -29,7 +29,6 @@ export const createSeats = (rowNum = 6, colNum = 12) => {
             seats[`${seId}`] = {
                 row: i,
                 column: j,
-                status: 'init',
                 No: seId,
                 isBeat: bestSeats.includes(j)
             };
