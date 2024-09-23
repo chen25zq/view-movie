@@ -7,13 +7,12 @@ import { Link } from "@nextui-org/link";
 import { Select, SelectItem } from "@nextui-org/select";
 import { SeatSelection } from "@/components/SeatSelection";
 
-import { initMovieData } from "@/utils/seats";
-
 export interface AdminPageProps {
   selectUser: number;
+  movie: any;
 }
 
-export function AdminPage({ selectUser }: AdminPageProps) {
+export function AdminPage({ selectUser, movie }: AdminPageProps) {
   const [selectMovie, setSelectMovie] = useState(0);
 
   const handleSelectMovie = (e: any) => {
@@ -29,9 +28,9 @@ export function AdminPage({ selectUser }: AdminPageProps) {
           className="max-w-xs"
           onChange={handleSelectMovie}
         >
-          {initMovieData.map((movie: any) => (
-            <SelectItem key={movie.id}>
-              {movie.title}
+          {movie.map((item: any) => (
+            <SelectItem key={item.id}>
+              {item.title}
             </SelectItem>
           ))}
         </Select>

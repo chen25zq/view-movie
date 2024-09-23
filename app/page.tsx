@@ -5,10 +5,15 @@ import { Select, SelectItem } from "@nextui-org/select";
 
 import { UserPage } from "@/modules/UserPage";
 import { AdminPage } from '@/modules/AdminPage';
-import { initUserData } from "@/utils/seats";
+import { initUserData, initMovieData } from "@/utils/seats";
 
 export default function Home() {
   const [selectUser, setSelectUser] = useState(0);
+
+  const [movie, setMovie] = useState(() => {
+    const movieInfo = localStorage.getItem('movie');
+    return movieInfo ? JSON.parse(movieInfo) : initMovieData; // 如果有值则解析，否则初始化为空字符串
+  });
 
   const handleSelectUser = (e: any) => {
     setSelectUser(Number(e.target.value));
@@ -34,7 +39,7 @@ export default function Home() {
         </div>
 
         {/* 管理员角色和用户橘色操作不同 */}
-        { selectUser === 4 ? <AdminPage selectUser={selectUser} /> : <UserPage selectUser={selectUser} />}
+        { selectUser === 4 ? <AdminPage selectUser={selectUser} movie={movie} /> : <UserPage selectUser={selectUser} movie={movie} />}
             
       </div>
     </section>

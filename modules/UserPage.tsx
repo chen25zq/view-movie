@@ -6,13 +6,12 @@ import { useState } from "react";
 import { Select, SelectItem } from "@nextui-org/select";
 import { SeatSelection } from "@/components/SeatSelection";
 
-import { initMovieData } from "@/utils/seats";
-
 export interface UserPageProps {
   selectUser: number;
+  movie: any;
 }
 
-export function UserPage({ selectUser }: UserPageProps) {
+export function UserPage({ selectUser, movie }: UserPageProps) {
   const [selectMovie, setSelectMovie] = useState(0);
 
   const handleSelectMovie = (e: any) => {
@@ -28,9 +27,9 @@ export function UserPage({ selectUser }: UserPageProps) {
           className="max-w-xs"
           onChange={handleSelectMovie}
         >
-          {initMovieData.map((movie: any) => (
-            <SelectItem key={movie.id}>
-              {movie.title}
+          {movie.map((item: any) => (
+            <SelectItem key={item.id}>
+              {item.title}
             </SelectItem>
           ))}
         </Select>
