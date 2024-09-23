@@ -265,6 +265,40 @@
     "@react-types/button" "3.9.4"
     "@react-types/shared" "3.23.1"
 
+"@nextui-org/card@^2.0.34":
+  version "2.0.34"
+  resolved "https://registry.npmmirror.com/@nextui-org/card/-/card-2.0.34.tgz#d9c7f68f84f86dcb4965a365a59e122e75e252b4"
+  integrity sha512-2RYNPsQkM0FOifGCKmRBR3AuYgYCNmPV7dyA5M3D9Lf0APsHHtsXRA/GeIJ/AuPnglZrYBX8wpM5kLt3dnlQjQ==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/ripple" "2.0.33"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/use-aria-button" "2.0.10"
+    "@react-aria/button" "3.9.5"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/utils" "3.24.1"
+    "@react-types/shared" "3.23.1"
+
+"@nextui-org/checkbox@2.1.5":
+  version "2.1.5"
+  resolved "https://registry.npmmirror.com/@nextui-org/checkbox/-/checkbox-2.1.5.tgz#6b3083b7b53cf8a6e3c20e6063ca21a66866432e"
+  integrity sha512-PSCWmxEzFPfeIJfoGAtbQS5T7JvBRblUMz5NdCMArA8MLvWW8EKL41cMPsqWjaUanjD0fAI8Q9HuDfBZnkcPbw==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/use-callback-ref" "2.0.6"
+    "@nextui-org/use-safe-layout-effect" "2.0.6"
+    "@react-aria/checkbox" "3.14.3"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/utils" "3.24.1"
+    "@react-aria/visually-hidden" "3.8.12"
+    "@react-stately/checkbox" "3.6.5"
+    "@react-stately/toggle" "3.7.4"
+    "@react-types/checkbox" "3.8.1"
+    "@react-types/shared" "3.23.1"
+
 "@nextui-org/code@2.0.33":
   version "2.0.33"
   resolved "https://registry.yarnpkg.com/@nextui-org/code/-/code-2.0.33.tgz#04ba9280e08505c6c4a57cac029f6db1411cac55"
@@ -353,6 +387,26 @@
     "@react-types/menu" "3.9.9"
     "@react-types/shared" "3.23.1"
 
+"@nextui-org/modal@^2.0.41":
+  version "2.0.41"
+  resolved "https://registry.npmmirror.com/@nextui-org/modal/-/modal-2.0.41.tgz#3fba82661413236e9b41f3b4d6c50c3205d6292c"
+  integrity sha512-Sirn319xAf7E4cZqvQ0o0Vd3Xqy0FRSuhOTwp8dALMGTMY61c2nIyurgVCNP6hh8dMvMT7zQEPP9/LE0boFCEQ==
+  dependencies:
+    "@nextui-org/framer-utils" "2.0.25"
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-icons" "2.0.9"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/use-aria-button" "2.0.10"
+    "@nextui-org/use-aria-modal-overlay" "2.0.13"
+    "@nextui-org/use-disclosure" "2.0.10"
+    "@react-aria/dialog" "3.5.14"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/overlays" "3.22.1"
+    "@react-aria/utils" "3.24.1"
+    "@react-stately/overlays" "3.6.7"
+    "@react-types/overlays" "3.8.7"
+
 "@nextui-org/navbar@2.0.37":
   version "2.0.37"
   resolved "https://registry.yarnpkg.com/@nextui-org/navbar/-/navbar-2.0.37.tgz#ccc1be6d43b35eedab251f3ecc8e1d0fd03f01ac"
@@ -369,6 +423,28 @@
     "@react-aria/utils" "3.24.1"
     "@react-stately/toggle" "3.7.4"
     "@react-stately/utils" "3.10.1"
+    react-remove-scroll "^2.5.6"
+
+"@nextui-org/popover@2.1.29":
+  version "2.1.29"
+  resolved "https://registry.npmmirror.com/@nextui-org/popover/-/popover-2.1.29.tgz#2972ff0f0ebc73afc5ec934bf026cdaba72d99fd"
+  integrity sha512-qGjMnAQVHQNfG571h9Tah2MXPs5mhxcTIj4TuBgwPzQTWXjjeffaHV3FlHdg5PxjTpNZOdDfrg0eRhDqIjKocQ==
+  dependencies:
+    "@nextui-org/aria-utils" "2.0.26"
+    "@nextui-org/button" "2.0.38"
+    "@nextui-org/framer-utils" "2.0.25"
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/use-aria-button" "2.0.10"
+    "@nextui-org/use-safe-layout-effect" "2.0.6"
+    "@react-aria/dialog" "3.5.14"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/overlays" "3.22.1"
+    "@react-aria/utils" "3.24.1"
+    "@react-stately/overlays" "3.6.7"
+    "@react-types/button" "3.9.4"
+    "@react-types/overlays" "3.8.7"
     react-remove-scroll "^2.5.6"
 
 "@nextui-org/react-rsc-utils@2.0.14":
@@ -391,6 +467,38 @@
   dependencies:
     "@nextui-org/react-utils" "2.0.17"
     "@nextui-org/shared-utils" "2.0.8"
+
+"@nextui-org/scroll-shadow@2.1.20":
+  version "2.1.20"
+  resolved "https://registry.npmmirror.com/@nextui-org/scroll-shadow/-/scroll-shadow-2.1.20.tgz#9d6934cf3f8807f66e5b0280d61d484817ab7ec6"
+  integrity sha512-8ULiUmbZ/Jzr1okI8Yzjzl5M4Ow3pJEm34hT5id0EaMIgklNa3Nnp/Dyp54JwwUbI8Kt3jOAMqkPitGIZyo5Ag==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/use-data-scroll-overflow" "2.1.7"
+
+"@nextui-org/select@^2.2.7":
+  version "2.2.7"
+  resolved "https://registry.npmmirror.com/@nextui-org/select/-/select-2.2.7.tgz#991468745b5a4aa61e4dbd0bd99a9ad6724ee79f"
+  integrity sha512-lA2EOjquhiHmLSInHFEarq64ZOQV37+ry1d8kvsqJ7R9dsqw1QEuMzH2Kk8/NqwrYMccHh5iAZ7PaLp90NSSxg==
+  dependencies:
+    "@nextui-org/aria-utils" "2.0.26"
+    "@nextui-org/listbox" "2.1.27"
+    "@nextui-org/popover" "2.1.29"
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/scroll-shadow" "2.1.20"
+    "@nextui-org/shared-icons" "2.0.9"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/spinner" "2.0.34"
+    "@nextui-org/use-aria-button" "2.0.10"
+    "@nextui-org/use-aria-multiselect" "2.2.5"
+    "@nextui-org/use-safe-layout-effect" "2.0.6"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/form" "3.0.5"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/utils" "3.24.1"
+    "@react-aria/visually-hidden" "3.8.12"
+    "@react-types/shared" "3.23.1"
 
 "@nextui-org/shared-icons@2.0.9":
   version "2.0.9"
@@ -415,6 +523,15 @@
     "@nextui-org/use-clipboard" "2.0.7"
     "@react-aria/focus" "3.17.1"
     "@react-aria/utils" "3.24.1"
+
+"@nextui-org/spacer@2.0.33":
+  version "2.0.33"
+  resolved "https://registry.npmmirror.com/@nextui-org/spacer/-/spacer-2.0.33.tgz#6c8bb36fbe7e7e135f5e8dac9b2a92324b930db9"
+  integrity sha512-0YDtovMWuAVgBvVXUmplzohObGxMPFhisHXn6v+0nflAE9LiVeiXf121WVOEMrd08S7xvmrAANcMwo4TsYi49g==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/system-rsc" "2.1.6"
 
 "@nextui-org/spinner@2.0.34":
   version "2.0.34"
@@ -461,6 +578,26 @@
     "@react-aria/overlays" "3.22.1"
     "@react-aria/utils" "3.24.1"
     "@react-stately/utils" "3.10.1"
+
+"@nextui-org/table@^2.0.40":
+  version "2.0.40"
+  resolved "https://registry.npmmirror.com/@nextui-org/table/-/table-2.0.40.tgz#2ee8e380402e0cf0eaf468cf1ec931712b5aa12f"
+  integrity sha512-qDbSsu6mpWnr1Mt3DYTBzTFtN8Z5Gv7GDqECGcDVradkDVuJFZvkB9Ke392LcVZoXSk99Rpamq4WSWkEewBhWg==
+  dependencies:
+    "@nextui-org/checkbox" "2.1.5"
+    "@nextui-org/react-utils" "2.0.17"
+    "@nextui-org/shared-icons" "2.0.9"
+    "@nextui-org/shared-utils" "2.0.8"
+    "@nextui-org/spacer" "2.0.33"
+    "@react-aria/focus" "3.17.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/table" "3.14.1"
+    "@react-aria/utils" "3.24.1"
+    "@react-aria/visually-hidden" "3.8.12"
+    "@react-stately/table" "3.11.8"
+    "@react-stately/virtualizer" "3.7.1"
+    "@react-types/grid" "3.2.6"
+    "@react-types/table" "3.9.5"
 
 "@nextui-org/theme@2.2.11":
   version "2.2.11"
@@ -520,6 +657,36 @@
     "@react-types/link" "3.5.5"
     "@react-types/shared" "3.23.1"
 
+"@nextui-org/use-aria-modal-overlay@2.0.13":
+  version "2.0.13"
+  resolved "https://registry.npmmirror.com/@nextui-org/use-aria-modal-overlay/-/use-aria-modal-overlay-2.0.13.tgz#2a505635f562fae12e1d94b39c263365b534b907"
+  integrity sha512-ifQxJwTX72lhVUofEVQqMbpe9vEUiCIqiimzlUjeVuE0cYOXaoJLEgPozHpYQrdjTNiwD5On0LLMRgz19XyAqw==
+  dependencies:
+    "@react-aria/overlays" "3.22.1"
+    "@react-aria/utils" "3.24.1"
+    "@react-stately/overlays" "3.6.7"
+    "@react-types/shared" "3.23.1"
+
+"@nextui-org/use-aria-multiselect@2.2.5":
+  version "2.2.5"
+  resolved "https://registry.npmmirror.com/@nextui-org/use-aria-multiselect/-/use-aria-multiselect-2.2.5.tgz#81e4783cb6971d2369566ca93f752ce3a4d7dbc4"
+  integrity sha512-Gxo2M0LdnFL4/WCi192ziFB8JmSZm6yZYT8RB021Z3iAPBu/Pp9GnWEPZu5g15mKnn3jW5Ecnfw03jTEAQBR+Q==
+  dependencies:
+    "@react-aria/i18n" "3.11.1"
+    "@react-aria/interactions" "3.21.3"
+    "@react-aria/label" "3.7.8"
+    "@react-aria/listbox" "3.12.1"
+    "@react-aria/menu" "3.14.1"
+    "@react-aria/selection" "3.18.1"
+    "@react-aria/utils" "3.24.1"
+    "@react-stately/form" "3.0.3"
+    "@react-stately/list" "3.10.5"
+    "@react-stately/menu" "3.7.1"
+    "@react-types/button" "3.9.4"
+    "@react-types/overlays" "3.8.7"
+    "@react-types/select" "3.9.4"
+    "@react-types/shared" "3.23.1"
+
 "@nextui-org/use-aria-toggle-button@2.0.10":
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/@nextui-org/use-aria-toggle-button/-/use-aria-toggle-button-2.0.10.tgz#a45f331274860b115e8aad3f6c91a163922e84af"
@@ -531,10 +698,33 @@
     "@react-types/button" "3.9.4"
     "@react-types/shared" "3.23.1"
 
+"@nextui-org/use-callback-ref@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.npmmirror.com/@nextui-org/use-callback-ref/-/use-callback-ref-2.0.6.tgz#6720a1381d4ce79ae7075949a647b03be8309d99"
+  integrity sha512-2WcwWuK1L/wIpTbibnLrysmmkzWomvkVIcgWayB6n/w+bpPrPCG7Zyg2WHzmMmDhe6imV//KKBgNKRi8Xhu/VA==
+  dependencies:
+    "@nextui-org/use-safe-layout-effect" "2.0.6"
+
 "@nextui-org/use-clipboard@2.0.7":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@nextui-org/use-clipboard/-/use-clipboard-2.0.7.tgz#f572f8c2c37f9248c4aebc7b31019e685ae33f82"
   integrity sha512-Bn1fF/goMwOA5DQyw3A4ebfgozwR8U5k5TAZMPiy1RBWgTFw7+lB0GNbH+DOnUGY5Vyztyaw6gtUyc3tVzJxeg==
+
+"@nextui-org/use-data-scroll-overflow@2.1.7":
+  version "2.1.7"
+  resolved "https://registry.npmmirror.com/@nextui-org/use-data-scroll-overflow/-/use-data-scroll-overflow-2.1.7.tgz#667695beaf7759ec2dff865f40e643bbf832727c"
+  integrity sha512-MP4YLjBWyIt0KyWPndXyhnkKgOLqTZ2aPY82Czjqn+eZk/l8BNo0nfA+dZFfbfEuPJgqdt/JDkMOrS+uq0+vkQ==
+  dependencies:
+    "@nextui-org/shared-utils" "2.0.8"
+
+"@nextui-org/use-disclosure@2.0.10":
+  version "2.0.10"
+  resolved "https://registry.npmmirror.com/@nextui-org/use-disclosure/-/use-disclosure-2.0.10.tgz#9767ad6156fef3353a5bfb84207724f56456c850"
+  integrity sha512-s2I58d7x2f1JRriZnNm9ZoxrGmxF+DnC9BXM1sD99Wq1VNMd0dhitmx0mUWfUB7l5HLyZgKOeiSLG+ugy1F1Yw==
+  dependencies:
+    "@nextui-org/use-callback-ref" "2.0.6"
+    "@react-aria/utils" "3.24.1"
+    "@react-stately/utils" "3.10.1"
 
 "@nextui-org/use-is-mobile@2.0.9":
   version "2.0.9"
@@ -607,6 +797,35 @@
     "@react-types/shared" "^3.23.1"
     "@swc/helpers" "^0.5.0"
 
+"@react-aria/checkbox@3.14.3":
+  version "3.14.3"
+  resolved "https://registry.npmmirror.com/@react-aria/checkbox/-/checkbox-3.14.3.tgz#6e2579681008e460d2c764a03f1f1b54e0815868"
+  integrity sha512-EtBJL6iu0gvrw3A4R7UeVLR6diaVk/mh4kFBc7c8hQjpEJweRr4hmJT3hrNg3MBcTWLxFiMEXPGgWEwXDBygtA==
+  dependencies:
+    "@react-aria/form" "^3.0.5"
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/label" "^3.7.8"
+    "@react-aria/toggle" "^3.10.4"
+    "@react-aria/utils" "^3.24.1"
+    "@react-stately/checkbox" "^3.6.5"
+    "@react-stately/form" "^3.0.3"
+    "@react-stately/toggle" "^3.7.4"
+    "@react-types/checkbox" "^3.8.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/dialog@3.5.14":
+  version "3.5.14"
+  resolved "https://registry.npmmirror.com/@react-aria/dialog/-/dialog-3.5.14.tgz#d4b078410c00b7cc7e6f25f67dfe53fa755be769"
+  integrity sha512-oqDCjQ8hxe3GStf48XWBf2CliEnxlR9GgSYPHJPUc69WBj68D9rVcCW3kogJnLAnwIyf3FnzbX4wSjvUa88sAQ==
+  dependencies:
+    "@react-aria/focus" "^3.17.1"
+    "@react-aria/overlays" "^3.22.1"
+    "@react-aria/utils" "^3.24.1"
+    "@react-types/dialog" "^3.5.10"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-aria/focus@3.17.1":
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/@react-aria/focus/-/focus-3.17.1.tgz#c796a188120421e2fedf438cadacdf463c77ad29"
@@ -629,6 +848,17 @@
     "@swc/helpers" "^0.5.0"
     clsx "^2.0.0"
 
+"@react-aria/form@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.npmmirror.com/@react-aria/form/-/form-3.0.5.tgz#abaf6ac005dc3f98760ac74fdb6524ad189399d6"
+  integrity sha512-n290jRwrrRXO3fS82MyWR+OKN7yznVesy5Q10IclSTVYHHI3VI53xtAPr/WzNjJR1um8aLhOcDNFKwnNIUUCsQ==
+  dependencies:
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/utils" "^3.24.1"
+    "@react-stately/form" "^3.0.3"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-aria/form@^3.0.5":
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/@react-aria/form/-/form-3.0.8.tgz#9d98040b44795052bddffd47741ed64b739dd070"
@@ -637,6 +867,25 @@
     "@react-aria/interactions" "^3.22.2"
     "@react-aria/utils" "^3.25.2"
     "@react-stately/form" "^3.0.5"
+    "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/grid@^3.9.1":
+  version "3.10.3"
+  resolved "https://registry.npmmirror.com/@react-aria/grid/-/grid-3.10.3.tgz#141cf19f2625912da9159e3bf20a49b23ca37786"
+  integrity sha512-l0r9mz05Gwjq3t6JOTNQOf+oAoWN0bXELPJtIr8m0XyXMPFCQe1xsTaX8igVQdrDmXyBc75RAWS0BJo2JF2fIA==
+  dependencies:
+    "@react-aria/focus" "^3.18.2"
+    "@react-aria/i18n" "^3.12.2"
+    "@react-aria/interactions" "^3.22.2"
+    "@react-aria/live-announcer" "^3.3.4"
+    "@react-aria/selection" "^3.19.3"
+    "@react-aria/utils" "^3.25.2"
+    "@react-stately/collections" "^3.10.9"
+    "@react-stately/grid" "^3.9.2"
+    "@react-stately/selection" "^3.16.2"
+    "@react-types/checkbox" "^3.8.3"
+    "@react-types/grid" "^3.2.8"
     "@react-types/shared" "^3.24.1"
     "@swc/helpers" "^0.5.0"
 
@@ -688,6 +937,15 @@
     "@react-types/shared" "^3.24.1"
     "@swc/helpers" "^0.5.0"
 
+"@react-aria/label@3.7.8":
+  version "3.7.8"
+  resolved "https://registry.npmmirror.com/@react-aria/label/-/label-3.7.8.tgz#69f1c184836b04445fcedce78db9fd939a0570ea"
+  integrity sha512-MzgTm5+suPA3KX7Ug6ZBK2NX9cin/RFLsv1BdafJ6CZpmUSpWnGE/yQfYUB7csN7j31OsZrD3/P56eShYWAQfg==
+  dependencies:
+    "@react-aria/utils" "^3.24.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-aria/label@^3.7.8":
   version "3.7.11"
   resolved "https://registry.yarnpkg.com/@react-aria/label/-/label-3.7.11.tgz#79cb5234dce68eb6eb011fa74de435e394cac2a8"
@@ -724,6 +982,32 @@
     "@react-types/shared" "^3.23.1"
     "@swc/helpers" "^0.5.0"
 
+"@react-aria/live-announcer@^3.3.4":
+  version "3.3.4"
+  resolved "https://registry.npmmirror.com/@react-aria/live-announcer/-/live-announcer-3.3.4.tgz#97a5830ae7da8546b2d19311fe1606c5d5e0151c"
+  integrity sha512-w8lxs35QrRrn6pBNzVfyGOeqWdxeVKf9U6bXIVwhq7rrTqRULL8jqy8RJIMfIs1s8G5FpwWYjyBOjl2g5Cu1iA==
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/menu@3.14.1":
+  version "3.14.1"
+  resolved "https://registry.npmmirror.com/@react-aria/menu/-/menu-3.14.1.tgz#c9ec25bc374ee9bb02dc3d92d8260df702349133"
+  integrity sha512-BYliRb38uAzq05UOFcD5XkjA5foQoXRbcH3ZufBsc4kvh79BcP1PMW6KsXKGJ7dC/PJWUwCui6QL1kUg8PqMHA==
+  dependencies:
+    "@react-aria/focus" "^3.17.1"
+    "@react-aria/i18n" "^3.11.1"
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/overlays" "^3.22.1"
+    "@react-aria/selection" "^3.18.1"
+    "@react-aria/utils" "^3.24.1"
+    "@react-stately/collections" "^3.10.7"
+    "@react-stately/menu" "^3.7.1"
+    "@react-stately/tree" "^3.8.1"
+    "@react-types/button" "^3.9.4"
+    "@react-types/menu" "^3.9.9"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-aria/overlays@3.22.1":
   version "3.22.1"
   resolved "https://registry.yarnpkg.com/@react-aria/overlays/-/overlays-3.22.1.tgz#7a01673317fa6517bb91b0b7504e303facdc9ccb"
@@ -741,7 +1025,37 @@
     "@react-types/shared" "^3.23.1"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/selection@^3.18.1":
+"@react-aria/overlays@^3.22.1":
+  version "3.23.2"
+  resolved "https://registry.npmmirror.com/@react-aria/overlays/-/overlays-3.23.2.tgz#1413b4f7cb9e0d0f7c5b483da9115539fcf5ad5c"
+  integrity sha512-vjlplr953YAuJfHiP4O+CyrTlr6OaFgXAGrzWq4MVMjnpV/PT5VRJWYFHR0sUGlHTPqeKS4NZbi/xCSgl/3pGQ==
+  dependencies:
+    "@react-aria/focus" "^3.18.2"
+    "@react-aria/i18n" "^3.12.2"
+    "@react-aria/interactions" "^3.22.2"
+    "@react-aria/ssr" "^3.9.5"
+    "@react-aria/utils" "^3.25.2"
+    "@react-aria/visually-hidden" "^3.8.15"
+    "@react-stately/overlays" "^3.6.10"
+    "@react-types/button" "^3.9.6"
+    "@react-types/overlays" "^3.8.9"
+    "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/selection@3.18.1":
+  version "3.18.1"
+  resolved "https://registry.npmmirror.com/@react-aria/selection/-/selection-3.18.1.tgz#fd6a10a86be187ac2a591cbbc1f41c3aa0c09f7f"
+  integrity sha512-GSqN2jX6lh7v+ldqhVjAXDcrWS3N4IsKXxO6L6Ygsye86Q9q9Mq9twWDWWu5IjHD6LoVZLUBCMO+ENGbOkyqeQ==
+  dependencies:
+    "@react-aria/focus" "^3.17.1"
+    "@react-aria/i18n" "^3.11.1"
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/utils" "^3.24.1"
+    "@react-stately/selection" "^3.15.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/selection@^3.18.1", "@react-aria/selection@^3.19.3":
   version "3.19.3"
   resolved "https://registry.yarnpkg.com/@react-aria/selection/-/selection-3.19.3.tgz#407fb61af8b0956655baf664457ef293d844b1b8"
   integrity sha512-GYoObXCXlmGK08hp7Qfl6Bk0U+bKP5YDWSsX+MzNjJsqzQSLm4S06tRB9ACM7gIo9dDCvL4IRxdSYTJAlJc6bw==
@@ -776,6 +1090,28 @@
     "@react-aria/toggle" "^3.10.4"
     "@react-stately/toggle" "^3.7.4"
     "@react-types/switch" "^3.5.3"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/table@3.14.1":
+  version "3.14.1"
+  resolved "https://registry.npmmirror.com/@react-aria/table/-/table-3.14.1.tgz#6316349e17fe6adfe9132aab75ce72c4a44c028f"
+  integrity sha512-WaPgQe4zQF5OaluO5rm+Y2nEoFR63vsLd4BT4yjK1uaFhKhDY2Zk+1SCVQvBLLKS4WK9dhP05nrNzT0vp/ZPOw==
+  dependencies:
+    "@react-aria/focus" "^3.17.1"
+    "@react-aria/grid" "^3.9.1"
+    "@react-aria/i18n" "^3.11.1"
+    "@react-aria/interactions" "^3.21.3"
+    "@react-aria/live-announcer" "^3.3.4"
+    "@react-aria/utils" "^3.24.1"
+    "@react-aria/visually-hidden" "^3.8.12"
+    "@react-stately/collections" "^3.10.7"
+    "@react-stately/flags" "^3.0.3"
+    "@react-stately/table" "^3.11.8"
+    "@react-stately/virtualizer" "^3.7.1"
+    "@react-types/checkbox" "^3.8.1"
+    "@react-types/grid" "^3.2.6"
+    "@react-types/shared" "^3.23.1"
+    "@react-types/table" "^3.9.5"
     "@swc/helpers" "^0.5.0"
 
 "@react-aria/textfield@3.14.5":
@@ -851,13 +1187,35 @@
     "@react-types/shared" "^3.23.1"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/visually-hidden@^3.8.12":
+"@react-aria/visually-hidden@^3.8.12", "@react-aria/visually-hidden@^3.8.15":
   version "3.8.15"
   resolved "https://registry.yarnpkg.com/@react-aria/visually-hidden/-/visually-hidden-3.8.15.tgz#8b0317621e1eab3e4188df1a0206f483b95cd8f2"
   integrity sha512-l+sJ7xTdD5Sd6+rDNDaeJCSPnHOsI+BaJyApvb/YcVgHa7rB47lp6TXCWUCDItcPY4JqRGyeByRJVrtzBFTWCw==
   dependencies:
     "@react-aria/interactions" "^3.22.2"
     "@react-aria/utils" "^3.25.2"
+    "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/checkbox@3.6.5":
+  version "3.6.5"
+  resolved "https://registry.npmmirror.com/@react-stately/checkbox/-/checkbox-3.6.5.tgz#0566eae3ba3a84af6f29526b3feaf124d3c3a66b"
+  integrity sha512-IXV3f9k+LtmfQLE+DKIN41Q5QB/YBLDCB1YVx5PEdRp52S9+EACD5683rjVm8NVRDwjMi2SP6RnFRk7fVb5Azg==
+  dependencies:
+    "@react-stately/form" "^3.0.3"
+    "@react-stately/utils" "^3.10.1"
+    "@react-types/checkbox" "^3.8.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/checkbox@^3.6.5":
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/@react-stately/checkbox/-/checkbox-3.6.8.tgz#87e43cbf762fce8569e9b0fecd7e6213952e0aac"
+  integrity sha512-c8TWjU67XHHBCpqj6+FXXhQUWGr2Pil1IKggX81pkedhWiJl3/7+WHJuZI0ivGnRjp3aISNOG8UNVlBEjS9E8A==
+  dependencies:
+    "@react-stately/form" "^3.0.5"
+    "@react-stately/utils" "^3.10.3"
+    "@react-types/checkbox" "^3.8.3"
     "@react-types/shared" "^3.24.1"
     "@swc/helpers" "^0.5.0"
 
@@ -877,11 +1235,37 @@
     "@react-types/shared" "^3.24.1"
     "@swc/helpers" "^0.5.0"
 
+"@react-stately/flags@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmmirror.com/@react-stately/flags/-/flags-3.0.3.tgz#53a58c0140d61575787127a762b7901b4a7fa896"
+  integrity sha512-/ha7XFA0RZTQsbzSPwu3KkbNMgbvuM0GuMTYLTBWpgBrovBNTM+QqI/PfZTdHg8PwCYF4H5Y8gjdSpdulCvJFw==
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/form@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmmirror.com/@react-stately/form/-/form-3.0.3.tgz#9894f9b219cc4cfbbde814d43d3f897bc43b25b3"
+  integrity sha512-92YYBvlHEWUGUpXgIaQ48J50jU9XrxfjYIN8BTvvhBHdD63oWgm8DzQnyT/NIAMzdLnhkg7vP+fjG8LjHeyIAg==
+  dependencies:
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-stately/form@^3.0.3", "@react-stately/form@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@react-stately/form/-/form-3.0.5.tgz#653f603ddd8b74a8a126b426ebc17abd112b672b"
   integrity sha512-J3plwJ63HQz109OdmaTqTA8Qhvl3gcYYK7DtgKyNP6mc/Me2Q4tl2avkWoA+22NRuv5m+J8TpBk4AVHUEOwqeQ==
   dependencies:
+    "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/grid@^3.8.7", "@react-stately/grid@^3.9.2":
+  version "3.9.2"
+  resolved "https://registry.npmmirror.com/@react-stately/grid/-/grid-3.9.2.tgz#b880ea037a9d8c7cd4302456acaf294700d41883"
+  integrity sha512-2gK//sqAqg2Xaq6UITTFQwFUJnBRgcW+cKBVbFt+F8d152xB6UwwTS/K79E5PUkOotwqZgTEpkrSFs/aVxCLpw==
+  dependencies:
+    "@react-stately/collections" "^3.10.9"
+    "@react-stately/selection" "^3.16.2"
+    "@react-types/grid" "^3.2.8"
     "@react-types/shared" "^3.24.1"
     "@swc/helpers" "^0.5.0"
 
@@ -904,6 +1288,26 @@
     "@react-stately/collections" "^3.10.9"
     "@react-stately/selection" "^3.16.2"
     "@react-stately/utils" "^3.10.3"
+    "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/menu@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.npmmirror.com/@react-stately/menu/-/menu-3.7.1.tgz#af3c259c519de036d9e80d7d8370278c7b042c6a"
+  integrity sha512-mX1w9HHzt+xal1WIT2xGrTQsoLvDwuB2R1Er1MBABs//MsJzccycatcgV/J/28m6tO5M9iuFQQvLV+i1dCtodg==
+  dependencies:
+    "@react-stately/overlays" "^3.6.7"
+    "@react-types/menu" "^3.9.9"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/menu@^3.7.1":
+  version "3.8.2"
+  resolved "https://registry.npmmirror.com/@react-stately/menu/-/menu-3.8.2.tgz#e7ecd5ea179d38a5d543b8e1fb58e1cde24257a4"
+  integrity sha512-lt6hIHmSixMzkKx1rKJf3lbAf01EmEvvIlENL20GLiU9cRbpPnPJ1aJMZ5Ad5ygglA7wAemAx+daPhlTQfF2rg==
+  dependencies:
+    "@react-stately/overlays" "^3.6.10"
+    "@react-types/menu" "^3.9.11"
     "@react-types/shared" "^3.24.1"
     "@swc/helpers" "^0.5.0"
 
@@ -933,6 +1337,36 @@
     "@react-stately/collections" "^3.10.9"
     "@react-stately/utils" "^3.10.3"
     "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/table@3.11.8":
+  version "3.11.8"
+  resolved "https://registry.npmmirror.com/@react-stately/table/-/table-3.11.8.tgz#b5323b095be8937761b9c5598f38623089047cf8"
+  integrity sha512-EdyRW3lT1/kAVDp5FkEIi1BQ7tvmD2YgniGdLuW/l9LADo0T+oxZqruv60qpUS6sQap+59Riaxl91ClDxrJnpg==
+  dependencies:
+    "@react-stately/collections" "^3.10.7"
+    "@react-stately/flags" "^3.0.3"
+    "@react-stately/grid" "^3.8.7"
+    "@react-stately/selection" "^3.15.1"
+    "@react-stately/utils" "^3.10.1"
+    "@react-types/grid" "^3.2.6"
+    "@react-types/shared" "^3.23.1"
+    "@react-types/table" "^3.9.5"
+    "@swc/helpers" "^0.5.0"
+
+"@react-stately/table@^3.11.8":
+  version "3.12.2"
+  resolved "https://registry.npmmirror.com/@react-stately/table/-/table-3.12.2.tgz#dee76a176d9842f0d250d337a3755a35c37c97d9"
+  integrity sha512-dUcsrdALylhWz6exqIoqtR/dnrzjIAptMyAUPT378Y/mCYs4PxKkHSvtPEQrZhdQS1ALIIgfeg9KUVIempoXPw==
+  dependencies:
+    "@react-stately/collections" "^3.10.9"
+    "@react-stately/flags" "^3.0.3"
+    "@react-stately/grid" "^3.9.2"
+    "@react-stately/selection" "^3.16.2"
+    "@react-stately/utils" "^3.10.3"
+    "@react-types/grid" "^3.2.8"
+    "@react-types/shared" "^3.24.1"
+    "@react-types/table" "^3.10.1"
     "@swc/helpers" "^0.5.0"
 
 "@react-stately/toggle@3.7.4":
@@ -971,6 +1405,17 @@
     "@react-types/tooltip" "^3.4.11"
     "@swc/helpers" "^0.5.0"
 
+"@react-stately/tree@^3.8.1":
+  version "3.8.4"
+  resolved "https://registry.npmmirror.com/@react-stately/tree/-/tree-3.8.4.tgz#8fb6dcfeadd39183d7e776e4001fa2037d579a78"
+  integrity sha512-HFNclIXJ/3QdGQWxXbj+tdlmIX/XwCfzAMB5m26xpJ6HtJhia6dtx3GLfcdyHNjmuRbAsTBsAAnnVKBmNRUdIQ==
+  dependencies:
+    "@react-stately/collections" "^3.10.9"
+    "@react-stately/selection" "^3.16.2"
+    "@react-stately/utils" "^3.10.3"
+    "@react-types/shared" "^3.24.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-stately/utils@3.10.1":
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/@react-stately/utils/-/utils-3.10.1.tgz#dc8685b4994bef0dc10c37b024074be8afbfba62"
@@ -985,6 +1430,15 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
+"@react-stately/virtualizer@3.7.1", "@react-stately/virtualizer@^3.7.1":
+  version "3.7.1"
+  resolved "https://registry.npmmirror.com/@react-stately/virtualizer/-/virtualizer-3.7.1.tgz#eb962d2ce700c026ce1b1d901034601db9d370c0"
+  integrity sha512-voHgE6EQ+oZaLv6u2umKxakvIKNkCQuUihqKACTjdslp7SJh4Mvs3oLBI0hf0JOh+rCcFIKDvQtFwy1fXFRYBA==
+  dependencies:
+    "@react-aria/utils" "^3.24.1"
+    "@react-types/shared" "^3.23.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-types/button@3.9.4":
   version "3.9.4"
   resolved "https://registry.yarnpkg.com/@react-types/button/-/button-3.9.4.tgz#ec10452e870660d31db1994f6fe4abfe0c800814"
@@ -992,17 +1446,46 @@
   dependencies:
     "@react-types/shared" "^3.23.1"
 
-"@react-types/button@^3.9.4":
+"@react-types/button@^3.9.4", "@react-types/button@^3.9.6":
   version "3.9.6"
   resolved "https://registry.yarnpkg.com/@react-types/button/-/button-3.9.6.tgz#135fc465a3026f2c5005725b63cf7c3525be2306"
   integrity sha512-8lA+D5JLbNyQikf8M/cPP2cji91aVTcqjrGpDqI7sQnaLFikM8eFR6l1ZWGtZS5MCcbfooko77ha35SYplSQvw==
   dependencies:
     "@react-types/shared" "^3.24.1"
 
+"@react-types/checkbox@3.8.1":
+  version "3.8.1"
+  resolved "https://registry.npmmirror.com/@react-types/checkbox/-/checkbox-3.8.1.tgz#de82c93542b2dd85c01df2e0c85c33a2e6349d14"
+  integrity sha512-5/oVByPw4MbR/8QSdHCaalmyWC71H/QGgd4aduTJSaNi825o+v/hsN2/CH7Fq9atkLKsC8fvKD00Bj2VGaKriQ==
+  dependencies:
+    "@react-types/shared" "^3.23.1"
+
 "@react-types/checkbox@^3.8.1", "@react-types/checkbox@^3.8.3":
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/@react-types/checkbox/-/checkbox-3.8.3.tgz#331055cf283dfb01c6bbcb02355a20decab19ada"
   integrity sha512-f4c1mnLEt0iS1NMkyZXgT3q3AgcxzDk7w6MSONOKydcnh0xG5L2oefY14DhVDLkAuQS7jThlUFwiAs+MxiO3MA==
+  dependencies:
+    "@react-types/shared" "^3.24.1"
+
+"@react-types/dialog@^3.5.10":
+  version "3.5.12"
+  resolved "https://registry.npmmirror.com/@react-types/dialog/-/dialog-3.5.12.tgz#cba173e3a1ca7efd8859bd995389eaa90070e5ea"
+  integrity sha512-JmpQbSpXltqEyYfEwoqDolABIiojeExkqolHNdQlayIsfFuSxZxNwXZPOpz58Ri/iwv21JP7K3QF0Gb2Ohxl9w==
+  dependencies:
+    "@react-types/overlays" "^3.8.9"
+    "@react-types/shared" "^3.24.1"
+
+"@react-types/grid@3.2.6":
+  version "3.2.6"
+  resolved "https://registry.npmmirror.com/@react-types/grid/-/grid-3.2.6.tgz#c0aba4a748d1722bafe85acf87f8d9d5134653b3"
+  integrity sha512-XfHenL2jEBUYrhKiPdeM24mbLRXUn79wVzzMhrNYh24nBwhsPPpxF+gjFddT3Cy8dt6tRInfT6pMEu9nsXwaHw==
+  dependencies:
+    "@react-types/shared" "^3.23.1"
+
+"@react-types/grid@^3.2.6", "@react-types/grid@^3.2.8":
+  version "3.2.8"
+  resolved "https://registry.npmmirror.com/@react-types/grid/-/grid-3.2.8.tgz#1855586e309387edcc6a77bb675a624039e9831a"
+  integrity sha512-6PJrpukwMqlv3IhJSDkJuVbhHM8Oe6hd2supWqd9adMXrlSP7QHt9a8SgFcFblCCTx8JzUaA0PvY5sTudcEtOQ==
   dependencies:
     "@react-types/shared" "^3.24.1"
 
@@ -1035,6 +1518,14 @@
     "@react-types/overlays" "^3.8.7"
     "@react-types/shared" "^3.23.1"
 
+"@react-types/menu@^3.9.11", "@react-types/menu@^3.9.9":
+  version "3.9.11"
+  resolved "https://registry.npmmirror.com/@react-types/menu/-/menu-3.9.11.tgz#5208ece45f47464bc74f73499fdc14e89679d44f"
+  integrity sha512-IguQVF70d7aHXgWB1Rd2a/PiIuLZ2Nt7lyayJshLcy/NLOYmgpTmTyn2WCtlA5lTfQwmQrNFf4EvnWkeljJXdA==
+  dependencies:
+    "@react-types/overlays" "^3.8.9"
+    "@react-types/shared" "^3.24.1"
+
 "@react-types/overlays@3.8.7":
   version "3.8.7"
   resolved "https://registry.yarnpkg.com/@react-types/overlays/-/overlays-3.8.7.tgz#a43faf524cb3fce74acceee43898b265e8dfee05"
@@ -1048,6 +1539,13 @@
   integrity sha512-9ni9upQgXPnR+K9cWmbYWvm3ll9gH8P/XsEZprqIV5zNLMF334jADK48h4jafb1X9RFnj0WbHo6BqcSObzjTig==
   dependencies:
     "@react-types/shared" "^3.24.1"
+
+"@react-types/select@3.9.4":
+  version "3.9.4"
+  resolved "https://registry.npmmirror.com/@react-types/select/-/select-3.9.4.tgz#6283cdcb0583a87d23aa00fd118365f80fe68484"
+  integrity sha512-xI7dnOW2st91fPPcv6hdtrTdcfetYiqZuuVPZ5TRobY7Q10/Zqqe/KqtOw1zFKUj9xqNJe4Ov3xP5GSdcO60Eg==
+  dependencies:
+    "@react-types/shared" "^3.23.1"
 
 "@react-types/shared@3.23.1":
   version "3.23.1"
@@ -1064,6 +1562,22 @@
   resolved "https://registry.yarnpkg.com/@react-types/switch/-/switch-3.5.5.tgz#e9d37bf5d974f3cc201503b8d46c24105afa48f0"
   integrity sha512-SZx1Bd+COhAOs/RTifbZG+uq/llwba7VAKx7XBeX4LeIz1dtguy5bigOBgFTMQi4qsIVCpybSWEEl+daj4XFPw==
   dependencies:
+    "@react-types/shared" "^3.24.1"
+
+"@react-types/table@3.9.5":
+  version "3.9.5"
+  resolved "https://registry.npmmirror.com/@react-types/table/-/table-3.9.5.tgz#7910debd618405598583a10588a75f97c7b15eeb"
+  integrity sha512-fgM2j9F/UR4Anmd28CueghCgBwOZoCVyN8fjaIFPd2MN4gCwUUfANwxLav65gZk4BpwUXGoQdsW+X50L3555mg==
+  dependencies:
+    "@react-types/grid" "^3.2.6"
+    "@react-types/shared" "^3.23.1"
+
+"@react-types/table@^3.10.1", "@react-types/table@^3.9.5":
+  version "3.10.1"
+  resolved "https://registry.npmmirror.com/@react-types/table/-/table-3.10.1.tgz#a44e871cd163d6838668ffd6821c604cf5fd307a"
+  integrity sha512-xsNh0Gm4GtNeSknZqkMsfGvc94fycmfhspGO+FzQKim2hB5k4yILwd+lHYQ2UKW6New9GVH/zN2Pd3v67IeZ2g==
+  dependencies:
+    "@react-types/grid" "^3.2.8"
     "@react-types/shared" "^3.24.1"
 
 "@react-types/textfield@3.9.3":
@@ -3607,6 +4121,7 @@ streamsearch@^1.1.0:
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==

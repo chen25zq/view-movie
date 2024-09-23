@@ -1,55 +1,41 @@
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+'use client'
 
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
+import { useState } from "react";
+import { Select, SelectItem } from "@nextui-org/select";
+
+import { UserPage } from "@/modules/UserPage";
+import { AdminPage } from '@/modules/AdminPage';
+import { initUserData } from "@/utils/seats";
 
 export default function Home() {
+  const [selectUser, setSelectUser] = useState(0);
+
+  const handleSelectUser = (e: any) => {
+    setSelectUser(Number(e.target.value));
+  };
+
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block max-w-xl text-center justify-center">
-        <span className={title()}>Make&nbsp;</span>
-        <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
-        <br />
-        <span className={title()}>
-          websites regardless of your design experience.
-        </span>
-        <div className={subtitle({ class: "mt-4" })}>
-          Beautiful, fast and modern React UI library.
+
+        <div className="flex w-full flex-wrap md:flex-nowrap gap-4 mb-5">
+          <Select
+            label="User"
+            placeholder="Select User"
+            className="max-w-xs"
+            onChange={handleSelectUser}
+          >
+            {initUserData.map((user: any) => (
+              <SelectItem key={user.id}>
+                {user.name}
+              </SelectItem>
+            ))}
+          </Select>
         </div>
-      </div>
 
-      <div className="flex gap-3">
-        <Link
-          isExternal
-          className={buttonStyles({
-            color: "primary",
-            radius: "full",
-            variant: "shadow",
-          })}
-          href={siteConfig.links.docs}
-        >
-          Documentation
-        </Link>
-        <Link
-          isExternal
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
-        >
-          <GithubIcon size={20} />
-          GitHub
-        </Link>
-      </div>
-
-      <div className="mt-8">
-        <Snippet hideCopyButton hideSymbol variant="bordered">
-          <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
-          </span>
-        </Snippet>
+        {/* 管理员角色和用户橘色操作不同 */}
+        { selectUser === 4 ? <AdminPage selectUser={selectUser} /> : <UserPage selectUser={selectUser} />}
+            
       </div>
     </section>
   );

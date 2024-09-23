@@ -75,7 +75,7 @@ export const Navbar = () => {
         </ul>
       </NavbarContent>
 
-      <NavbarContent
+      {/* <NavbarContent
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
@@ -104,7 +104,7 @@ export const Navbar = () => {
             Sponsor
           </Button>
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <Link isExternal aria-label="Github" href={siteConfig.links.github}>
