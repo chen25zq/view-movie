@@ -72,7 +72,7 @@ export const MovieTable = ({ movies, setMovies }: MovieTableProps) => {
             </span>
 
             <span className="text-lg text-default-600 cursor-pointer active:opacity-50">
-              <DeleteIcon onClick={handleRemoveMovie(movie)}/>
+              {movie.id > 3 && <DeleteIcon onClick={handleRemoveMovie(movie)}/>}
             </span>
           </div>
         );
