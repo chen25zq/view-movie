@@ -30,7 +30,6 @@ function timerReducer(
         } else {
           // 停止计时
           clearInterval(toggleTimer.intervalId);
-          toggleTimer.time = 0; // 重置时间
         }
       
         // 更新状态
