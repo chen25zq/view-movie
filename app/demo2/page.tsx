@@ -17,19 +17,26 @@ function timerReducer(
       // Remove the timer with the given id
       const remoteTimer = state.filter(item => item.id !== payload.id);
       return [...remoteTimer];
-    case "TOGGLE_TIMER":
-      // Toggle the timer with the given id
-      const idx = state.findIndex(item => item.id === payload.id);
-      const toggleTimer = state.filter(item => item.id === payload.id)[0];
-      toggleTimer.isActive = !toggleTimer.isActive;
-      if (toggleTimer.isActive) {
-        // 继续走定时器
-      } else {
-        // 重置
-        toggleTimer.time = 0
-      }
-      state[idx] = toggleTimer
-      return [...state];
+      case "TOGGLE_TIMER":
+        const idx = state.findIndex(item => item.id === payload.id);
+        const toggleTimer = { ...state[idx] }; // 复制当前计时器的状态
+        toggleTimer.isActive = !toggleTimer.isActive; // 切换状态
+      
+        if (toggleTimer.isActive) {
+          // 开始计时
+          toggleTimer.intervalId = setInterval(() => {
+            toggleTimer.time += 1; // 每秒增加1
+          }, 1000);
+        } else {
+          // 停止计时
+          clearInterval(toggleTimer.intervalId);
+          toggleTimer.time = 0; // 重置时间
+        }
+      
+        // 更新状态
+        const newState = [...state];
+        newState[idx] = toggleTimer; // 更新计时器的状态
+        return newState;
     case "RESET_TIMER":
     // Reset the timer with the given id
       const idex = state.findIndex(item => item.id === payload.id);
@@ -39,8 +46,12 @@ function timerReducer(
       return [...state];
     case "TICK":
       // Tick all active timers
-      const list = state.filter(item => item.isActive);
-      return [...list];
+      return state.map(timer => {
+        if (timer.isActive) {
+          return { ...timer, time: timer.time + 1 };
+        }
+        return timer;
+      });
     case "LOAD_TIMERS":
     // Load timers
     default:
@@ -53,9 +64,10 @@ function TimerProvider({ children }: { children: React.ReactNode }) {
 
   // Tick every second
   useEffect(() => {
-    // setTimeout(() => {
-
-    // }, 1000);
+    const interval = setInterval(() => {
+      dispatch({ type: "TICK" });
+    }, 1000);
+    return () => clearInterval(interval);
   }, [timers]);
 
   return (
