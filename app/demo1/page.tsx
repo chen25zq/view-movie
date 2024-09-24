@@ -49,6 +49,7 @@ export default function Demo1Page() {
     console.log(schoolName, 'schoolName');
     if (schoolName === 'ALL') {
       setScList(data);
+      return;
     }
     const filterSchool = data.filter(item => item?.school_name === schoolName);
     setScList(filterSchool);
@@ -58,6 +59,7 @@ export default function Demo1Page() {
     // { school_name: "SJSU", gender: "female" },
     if (gender === 'ALL') {
       setGList(data);
+      return;
     }
     const genderList = data.filter(item => item?.gender === gender);
     setGList(genderList)
@@ -78,18 +80,30 @@ export default function Demo1Page() {
           {/* 示例： 点击ALL 显示所有的，点击SJSU / KCC 只显示SJSU / KCC的数据 */}
           <p onClick={() => handleTypeSchoolName("ALL")}>ALL</p>
           <p onClick={() => handleTypeSchoolName("SJSU")}>示例: SJSU</p>
+          <p onClick={() => handleTypeSchoolName("KCC")}>示例: KCC</p>
         </div>
         <div className="h-full py-[6px] justify-start">
           <h6 className="font-semibold">按性别分类</h6>
           <p onClick={() => handleTypeGender("ALL")}>ALL</p>
+          <p onClick={() => handleTypeGender("male")}>male</p>
+          <p onClick={() => handleTypeGender("female")}>female</p>
         </div>
       </div>
       {/* 渲染位置 */}
       <div className="h-[400px] w-[800px]">
         {scList.map(item =>(
           <p className="flex">
-            <span>{item?.school_name}</span>
-            <span>{item?.gender}</span>
+            <span className="mr-10">学校名称:{item?.school_name}</span>
+            <span>性别:{item?.gender}</span>
+          </p>
+        ))}
+      </div>
+
+      <div className="h-[400px] w-[800px]">
+        {gList.map(item =>(
+          <p className="flex">
+            <span className="mr-10">学校名称:{item?.school_name}</span>
+            <span>性别:{item?.gender}</span>
           </p>
         ))}
       </div>
