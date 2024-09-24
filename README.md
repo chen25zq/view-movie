@@ -20,8 +20,6 @@ This is a template for creating applications using Next.js 14 (app directory) an
 2. yarn dev
 3. open http://localhost:3000 in your browser
 
-
-
 ## 操作
 
 1. 切换到管理员：用户选择 Admin，即可看到用户管理、电影管理两个入口
